@@ -1,7 +1,23 @@
 // Write a program that takes in an array of numbers and consoles the first four items multiplied by itself  and the last two added by 10. Return the array with the new values
+function isArray(arr){
+    newArr=[];
+let arr=arr.slice(0,4);
+let arr1=arr.slice(-2);
+arr.forEach(num=>{
+let previous =num*num;
+console.log[previous];
+newArr.push(previous);
 
+})
 
+arr1.forEach(num=>{
+let isarr=num+10;
+console.log(isarr);
 
+})
+console.log(newArr);
+return newArr;
+}
 
 
 
@@ -23,7 +39,12 @@ console.log(arrNumber[i]);i++;
  
 
 // Write a function that takes in a an array of strings and use a continue statement when the item is at the second index:  let fruits= ['apple','plum','banana','strawberries','kiwi']
+function isArray(arr){
+for(let num=0;num<arr.length;num++){
+ console.log(arr[num]);
+}
 
+}
 
 
 // Write a function that accepts an array of strings and console.logs each element using a for loop.
@@ -31,7 +52,6 @@ function isArray(){
     let arr=['banana','berries','apple']
     for (element of arr){
         console.log({element});
-
     }
         
     }
